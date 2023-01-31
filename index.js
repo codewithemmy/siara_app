@@ -22,7 +22,9 @@ app.use(cors());
 // app.use(xss());
 
 app.get("/", (req, res) => {
-  res.send('<h1>Jobs API</h1><a href="/api-docs">Documentation</a>');
+  res.send(
+    '<h1>Siara App</h1><a href="https://documenter.getpostman.com/view/23195379/2s935it5qy">Documentation</a>'
+  );
 });
 
 // routes
